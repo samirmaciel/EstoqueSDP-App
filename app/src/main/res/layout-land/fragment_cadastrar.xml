@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4D1BB"
+    tools:context=".ui.cadastrar.CadastroFragment">
+
+
+    <EditText
+        android:id="@+id/inputCodigoCadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/bg_input"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="INSERIR CÓDIGO"
+        android:inputType="number"
+        android:maxLength="5"
+        android:textColor="#EA3D53"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinnerCategoria"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:background="@drawable/bg_input"
+        android:gravity="center"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/inputCodigoCadastro"
+        app:layout_constraintTop_toTopOf="@+id/inputCodigoCadastro" />
+
+    <Spinner
+        android:id="@+id/spinnerPiso"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_input"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="@+id/spinnerCategoria"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/spinnerCategoria"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerCategoria" />
+
+    <Spinner
+        android:id="@+id/spinnerPuxada"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_input"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="@+id/inputCodigoCadastro"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/inputCodigoCadastro"
+        app:layout_constraintTop_toBottomOf="@+id/inputCodigoCadastro" />
+
+    <Spinner
+        android:id="@+id/spinnerPratileira"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_input"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="@+id/spinnerPuxada"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/spinnerPuxada"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerPuxada" />
+
+    <Button
+        android:id="@+id/btnSalvarProduto"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_button"
+        android:text="salvar"
+        app:layout_constraintEnd_toEndOf="@+id/spinnerPiso"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/spinnerPiso"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerPiso" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:backgroundTint="#F4D1BB"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="0dp"
+        app:layout_constraintStart_toEndOf="@+id/spinnerPiso"
+        app:layout_constraintTop_toTopOf="@+id/spinnerCategoria">
+
+        <ImageView
+            android:id="@+id/imageviewCapturada"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+
+            android:src="@drawable/icon_camera" />
+
+    </androidx.cardview.widget.CardView>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:indeterminateTint="#EA3D53"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/btnSalvarProduto"
+        app:layout_constraintEnd_toStartOf="@+id/btnSalvarProduto"
+        app:layout_constraintTop_toTopOf="@+id/btnSalvarProduto" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

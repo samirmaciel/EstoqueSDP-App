@@ -1,0 +1,4 @@
+#Wed Mar 10 20:06:09 BRT 2021
+base.0=C\:\\Users\\SAMIR\\AndroidStudioProjects\\EstoqueSDP\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

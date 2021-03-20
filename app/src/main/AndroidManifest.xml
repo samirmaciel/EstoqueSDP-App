@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.samirmaciel.estoquesdp">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:name="com.samirmaciel.estoquesdp.banco.FireBaseBanco"
+        android:allowBackup="true"
+        android:icon="@drawable/icon_estoque"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon_estoque"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EstoqueSDP">
+        <activity android:name=".ui.AtualizacaoProduto_Act"></activity>
+        <activity
+            android:name=".ui.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">1003507930606-2al6c86ofut3si2m2ehcqaa13c3h9a2o.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://estoquesdp-61f40-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1003507930606</string>
+    <string name="google_api_key" translatable="false">AIzaSyBLf8jEBsICF-r6fQIhK82JNxF91uHXeJY</string>
+    <string name="google_app_id" translatable="false">1:1003507930606:android:14480a2f25427c75092aff</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBLf8jEBsICF-r6fQIhK82JNxF91uHXeJY</string>
+    <string name="google_storage_bucket" translatable="false">estoquesdp-61f40.appspot.com</string>
+    <string name="project_id" translatable="false">estoquesdp-61f40</string>
+</resources>
