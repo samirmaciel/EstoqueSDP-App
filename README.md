@@ -12,4 +12,6 @@ Aplicativo para localização e visualização de produtos relacionados a loja S
 
 #### Conexão com o FireBase:
 
-##### Padrão Singleton - Apenas uma **instância** da classe de conexão é criada, declarando ela no Android **manifest**.
+##### Padrão Singleton - Apenas uma **instância** da classe de conexão é criada, declarando ela no Android Manifest.
+
+* [Manifest](https://github.com/samirmaciel/EstoqueSDP-App/blob/master/app/src/main/AndroidManifest.xml)
