@@ -15,3 +15,4 @@ Aplicativo para localização e visualização de produtos relacionados a loja S
 ##### Padrão Singleton - Apenas uma **instância** da classe de conexão é criada, declarando ela no Android Manifest.
 
 * [Manifest](https://github.com/samirmaciel/EstoqueSDP-App/blob/master/app/src/main/AndroidManifest.xml)
+* [Classe Conexão](https://github.com/samirmaciel/EstoqueSDP-App/blob/master/app/src/main/java/com/samirmaciel/estoquesdp/banco/FireBaseBanco.java)
