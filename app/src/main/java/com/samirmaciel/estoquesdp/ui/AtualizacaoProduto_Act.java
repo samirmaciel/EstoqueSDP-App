@@ -78,6 +78,7 @@ public class AtualizacaoProduto_Act extends AppCompatActivity {
         listaCategorias.add("ANABELA");
         listaCategorias.add("BIRKEN");
         listaCategorias.add("BOLSA");
+        listaCategorias.add("BOTA");
         listaCategorias.add("CONFORT");
         listaCategorias.add("CHINELO");
         listaCategorias.add("FLATFORM");
@@ -107,6 +108,7 @@ public class AtualizacaoProduto_Act extends AppCompatActivity {
         listaPuxada.add("PAREDE C");
         listaPuxada.add("PAREDE D");
         listaPuxada.add("PAREDE E");
+        listaPuxada.add("ILHA");
 
         listaPiso = new ArrayList<>();
         listaPiso.add("PISO");

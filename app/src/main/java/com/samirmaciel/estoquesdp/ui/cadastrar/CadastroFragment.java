@@ -90,6 +90,7 @@ public class CadastroFragment extends Fragment {
         listaCategorias.add("ANABELA");
         listaCategorias.add("BIRKEN");
         listaCategorias.add("BOLSA");
+        listaCategorias.add("BOTA");
         listaCategorias.add("CONFORT");
         listaCategorias.add("CHINELO");
         listaCategorias.add("FLATFORM");

@@ -1,15 +1,11 @@
 package com.samirmaciel.estoquesdp.ui.estoque;
 
-import android.app.AlertDialog;
 import android.app.Dialog;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.util.Base64;
-import android.view.ContextMenu;
 import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
@@ -28,18 +24,15 @@ import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.google.android.material.snackbar.Snackbar;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-import com.samirmaciel.estoquesdp.DAO.ProdutoDAO;
 import com.samirmaciel.estoquesdp.R;
-import com.samirmaciel.estoquesdp.RecycleAdapter;
-import com.samirmaciel.estoquesdp.RecycleViewClick;
+import com.samirmaciel.estoquesdp.model.RecycleAdapter;
+import com.samirmaciel.estoquesdp.model.RecycleViewClick;
 import com.samirmaciel.estoquesdp.model.Produto;
-import com.samirmaciel.estoquesdp.model.ToastPersonalizado;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -88,6 +81,7 @@ public class EstoqueFragment extends Fragment implements RecycleViewClick {
         listaCategorias.add("ANABELA");
         listaCategorias.add("BIRKEN");
         listaCategorias.add("BOLSA");
+        listaCategorias.add("BOTA");
         listaCategorias.add("CONFORT");
         listaCategorias.add("CHINELO");
         listaCategorias.add("FLATFORM");

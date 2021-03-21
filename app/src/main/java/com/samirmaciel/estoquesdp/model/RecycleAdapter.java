@@ -1,4 +1,4 @@
-package com.samirmaciel.estoquesdp;
+package com.samirmaciel.estoquesdp.model;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -16,18 +16,14 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.google.android.material.snackbar.Snackbar;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.samirmaciel.estoquesdp.DAO.ProdutoDAO;
-import com.samirmaciel.estoquesdp.model.Produto;
-import com.samirmaciel.estoquesdp.model.ToastPersonalizado;
+import com.samirmaciel.estoquesdp.R;
 import com.samirmaciel.estoquesdp.ui.AtualizacaoProduto_Act;
 
 import java.util.List;

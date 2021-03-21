@@ -1,7 +1,6 @@
 package com.samirmaciel.estoquesdp.ui.inicio;
 
 import android.app.Dialog;
-import android.content.DialogInterface;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
@@ -24,7 +23,6 @@ import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.google.android.material.snackbar.Snackbar;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -33,11 +31,10 @@ import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
 import com.samirmaciel.estoquesdp.DAO.HistoricoDAO;
 import com.samirmaciel.estoquesdp.R;
-import com.samirmaciel.estoquesdp.RecycleAdapter;
-import com.samirmaciel.estoquesdp.RecycleViewClick;
+import com.samirmaciel.estoquesdp.model.RecycleAdapter;
+import com.samirmaciel.estoquesdp.model.RecycleViewClick;
 import com.samirmaciel.estoquesdp.model.Produto;
 import com.samirmaciel.estoquesdp.model.ToastPersonalizado;
-import com.samirmaciel.estoquesdp.ui.MainActivity;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -129,7 +126,7 @@ public class InicioFragment extends Fragment implements RecycleViewClick {
                         .setMessage("Aplicativo para auxiliar na localização e indentificação, dos produtos relacionados a loja Sonho dos pés Angra." + "\n\nDesenvolvido por @SamirMaciel.   "+
                                 "Android Studio" +
                                 "\nJava" +
-                                "\n\nBeta 1.6.2v")
+                                "\n\nBeta 1.6.4v")
                         .setPositiveButton("Fechar", null).create();
                 dialog.show();
 
