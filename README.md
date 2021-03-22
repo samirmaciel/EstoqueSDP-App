@@ -5,7 +5,7 @@ Aplicativo para localização e visualização de produtos relacionados a loja S
 
 #### Funcionalidades: 
 
-* Busca por produtos
+* Busca de produtos por código
 * Cadastro ou atualizção de produtos
 * Visualização de produtos totais do estoque e por categoria
 
