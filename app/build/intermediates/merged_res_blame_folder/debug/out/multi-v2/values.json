@@ -51,11 +51,11 @@
                 {
                     "source": "C:\\Users\\SAMIR\\AndroidStudioProjects\\EstoqueSDP\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
-                        "startLines": "-1,-1,-1,-1,5",
-                        "startColumns": "-1,-1,-1,-1,4",
-                        "startOffsets": "-1,-1,-1,-1,224",
-                        "endColumns": "-1,-1,-1,-1,83",
-                        "endOffsets": "-1,-1,-1,-1,303"
+                        "startLines": "-1,-1,-1,2,-1",
+                        "startColumns": "-1,-1,-1,4,-1",
+                        "startOffsets": "-1,-1,-1,66,-1",
+                        "endColumns": "-1,-1,-1,48,-1",
+                        "endOffsets": "-1,-1,-1,110,-1"
                     },
                     "to": {
                         "startLines": "1061,1162,1163,1164,1165",

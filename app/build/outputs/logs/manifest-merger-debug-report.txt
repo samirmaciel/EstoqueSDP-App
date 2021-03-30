@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:2:1-26:12
+ADDED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:2:1-25:12
 MERGED from [androidx.navigation:navigation-ui:2.3.2] C:\Users\SAMIR\.gradle\caches\transforms-2\files-2.1\e1a1704da6abe3b3c7da5723ee3624fe\navigation-ui-2.3.2\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\SAMIR\.gradle\caches\transforms-2\files-2.1\448c7975c43a7e5ef099f4ae155bc6b2\material-1.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\SAMIR\.gradle\caches\transforms-2\files-2.1\32460cf1f05fd1d640db83825eaeb671\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
@@ -53,31 +53,31 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\SAMIR\.gradle\ca
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\SAMIR\.gradle\caches\transforms-2\files-2.1\132cd014204ad5997b8131d168774853\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\SAMIR\.gradle\caches\transforms-2\files-2.1\d4a4ebaca8a48543a8c5d1e120b37d2f\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\SAMIR\.gradle\caches\transforms-2\files-2.1\2f0c5bae3ac8a066392ff9fab8dc3b35\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:2:1-25:12
 	package
 		ADDED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:3:5-41
 		INJECTED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:2:1-26:12
+		ADDED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:2:1-25:12
 		INJECTED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:2:1-26:12
+		ADDED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:2:1-25:12
 		INJECTED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:5:5-66
+ADDED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:5:5-67
 MERGED from [com.google.firebase:firebase-database:19.6.0] C:\Users\SAMIR\.gradle\caches\transforms-2\files-2.1\d0caf471e809d508f85180a8825b3244\jetified-firebase-database-19.6.0\AndroidManifest.xml:26:5-67
 MERGED from [com.google.firebase:firebase-database:19.6.0] C:\Users\SAMIR\.gradle\caches\transforms-2\files-2.1\d0caf471e809d508f85180a8825b3244\jetified-firebase-database-19.6.0\AndroidManifest.xml:26:5-67
 	android:name
 		ADDED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:6:5-24:19
+ADDED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:7:5-23:19
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\SAMIR\.gradle\caches\transforms-2\files-2.1\448c7975c43a7e5ef099f4ae155bc6b2\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\SAMIR\.gradle\caches\transforms-2\files-2.1\448c7975c43a7e5ef099f4ae155bc6b2\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\SAMIR\.gradle\caches\transforms-2\files-2.1\32460cf1f05fd1d640db83825eaeb671\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
@@ -101,39 +101,37 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\SA
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.1] C:\Users\SAMIR\.gradle\caches\transforms-2\files-2.1\a62804a47368eb7ab7c7a621c89cad6f\core-1.3.1\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:10:9-41
+		ADDED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:11:9-41
 	android:roundIcon
-		ADDED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:11:9-51
+		ADDED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:12:9-51
 	android:icon
-		ADDED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:9:9-46
+		ADDED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:10:9-46
 	android:allowBackup
-		ADDED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:8:9-35
+		ADDED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:13:9-48
+		ADDED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:14:9-48
 	android:name
-		ADDED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:7:9-70
-activity#com.samirmaciel.estoquesdp.ui.AtualizacaoProduto_Act
-ADDED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:14:9-72
+		ADDED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:8:9-44
+activity#com.samirmaciel.estoquesdp.HomeActivity
+ADDED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:15:9-21:20
 	android:name
-		ADDED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:14:19-60
-activity#com.samirmaciel.estoquesdp.ui.MainActivity
-ADDED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:15:9-23:20
-	android:label
-		ADDED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:17:13-45
-	android:name
-		ADDED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:16:13-44
+		ADDED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:15:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:18:13-22:29
+ADDED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:19:17-69
+ADDED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:19:25-66
+		ADDED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:21:17-77
+ADDED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:21:27-74
+		ADDED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:19:27-74
+activity#com.samirmaciel.estoquesdp.ui.AtualizacaoProduto_Act
+ADDED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:22:9-63
+	android:name
+		ADDED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml:22:19-60
 uses-sdk
 INJECTED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\SAMIR\AndroidStudioProjects\EstoqueSDP\app\src\main\AndroidManifest.xml
