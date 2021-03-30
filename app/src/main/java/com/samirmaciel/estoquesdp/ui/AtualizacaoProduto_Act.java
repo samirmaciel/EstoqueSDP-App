@@ -384,4 +384,9 @@ public class AtualizacaoProduto_Act extends AppCompatActivity {
         }
     }
 
+    @Override
+    public void finish() {
+        super.finish();
+        overridePendingTransition(R.anim.puxar_direita, R.anim.mover_esquerda);
+    }
 }

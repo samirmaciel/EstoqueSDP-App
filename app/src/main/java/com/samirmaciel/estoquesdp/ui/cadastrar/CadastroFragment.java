@@ -60,12 +60,9 @@ public class CadastroFragment extends Fragment {
 
     private String fotoCapturada;
 
-    private CadastroViewModel cadastroViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        cadastroViewModel =
-                new ViewModelProvider(this).get(CadastroViewModel.class);
         View root = inflater.inflate(R.layout.fragment_cadastrar, container, false);
 
         return root;

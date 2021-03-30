@@ -46,7 +46,6 @@ public class InicioFragment extends Fragment implements RecycleViewClick {
     private DatabaseReference databaseReference;
 
     private Produto produtoBuscado;
-    private InicioViewModel inicioViewModel;
     private RecyclerView recyclerViewHistorico;
     private List<Produto> listaHistorico = new ArrayList<>();
     private List<Produto> listaBack = new ArrayList<>();
@@ -63,14 +62,9 @@ public class InicioFragment extends Fragment implements RecycleViewClick {
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        inicioViewModel =
-                new ViewModelProvider(this).get(InicioViewModel.class);
         View root = inflater.inflate(R.layout.fragment_inicio, container, false);
-        inicioViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
-            @Override
-            public void onChanged(@Nullable String s) {
-            }
-        });
+
+
         return root;
     }
 

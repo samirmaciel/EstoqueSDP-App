@@ -108,8 +108,8 @@ public class RecycleAdapter extends RecyclerView.Adapter<RecycleAdapter.MyViewHo
                 public boolean onMenuItemClick(MenuItem item) {
                     Intent intent = new Intent(context, AtualizacaoProduto_Act.class);
                     intent.putExtra("codigo", produtos.get(getAdapterPosition()).getCodigo());
-                    ActivityOptionsCompat activityOptionsCompat = ActivityOptionsCompat.makeCustomAnimation(context, R.anim.puxar_direita, R.anim.mover_esquerda);
-                    context.startActivity(intent);
+                    ActivityOptionsCompat activityOptionsCompat = ActivityOptionsCompat.makeCustomAnimation(context, R.anim.puxar_esquerda, R.anim.mover_direita);
+                    ActivityCompat.startActivity(context, intent, activityOptionsCompat.toBundle());
                     return false;
                 }
             });

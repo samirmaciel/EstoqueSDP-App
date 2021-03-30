@@ -47,19 +47,10 @@ public class EstoqueFragment extends Fragment implements RecycleViewClick {
     private RecycleAdapter adapter;
     private Spinner spinnerCategoria;
 
-    private EstoqueViewModel estoqueViewModel;
-
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        estoqueViewModel =
-                new ViewModelProvider(this).get(EstoqueViewModel.class);
         View root = inflater.inflate(R.layout.fragment_estoque, container, false);
-        estoqueViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
-            @Override
-            public void onChanged(@Nullable String s) {
 
-            }
-        });
         return root;
     }
 
