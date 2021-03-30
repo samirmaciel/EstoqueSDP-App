@@ -85,10 +85,17 @@ public class InicioFragment extends Fragment implements RecycleViewClick {
         inputCodigo = (EditText) view.findViewById(R.id.inputCodigo);
         hdao = new HistoricoDAO(getContext());
         inicarListaHistorico();
+
         databaseReference = FirebaseDatabase.getInstance().getReference();
+
+
         btnBuscar = (Button) view.findViewById(R.id.btnBuscar);
+
+
         recyclerViewHistorico = (RecyclerView) view.findViewById(R.id.recyclerviewHistorico);
+
         adapter = new RecycleAdapter(getContext(), getActivity(), listaHistorico, this);
+        
         recyclerViewHistorico.setAdapter(adapter);
         recyclerViewHistorico.setLayoutManager(new LinearLayoutManager(getContext()));
         botaoLimpar();

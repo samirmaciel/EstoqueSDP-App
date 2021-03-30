@@ -19,10 +19,13 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
+import androidx.core.app.ActivityCompat;
+import androidx.core.app.ActivityOptionsCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.samirmaciel.estoquesdp.HomeActivity;
 import com.samirmaciel.estoquesdp.R;
 import com.samirmaciel.estoquesdp.ui.AtualizacaoProduto_Act;
 
@@ -105,6 +108,7 @@ public class RecycleAdapter extends RecyclerView.Adapter<RecycleAdapter.MyViewHo
                 public boolean onMenuItemClick(MenuItem item) {
                     Intent intent = new Intent(context, AtualizacaoProduto_Act.class);
                     intent.putExtra("codigo", produtos.get(getAdapterPosition()).getCodigo());
+                    ActivityOptionsCompat activityOptionsCompat = ActivityOptionsCompat.makeCustomAnimation(context, R.anim.puxar_direita, R.anim.mover_esquerda);
                     context.startActivity(intent);
                     return false;
                 }

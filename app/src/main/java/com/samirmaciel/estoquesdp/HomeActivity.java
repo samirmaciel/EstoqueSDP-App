@@ -33,6 +33,7 @@ public class HomeActivity extends AppCompatActivity {
                 if(fragment_index != 0){
                     getSupportFragmentManager()
                             .beginTransaction()
+                            .setCustomAnimations(R.anim.puxar_esquerda, R.anim.mover_direita)
                             .replace(R.id.container_frame, new InicioFragment())
                             .commit();
                     fragment_index = 0;
@@ -45,11 +46,21 @@ public class HomeActivity extends AppCompatActivity {
             @Override
             public boolean onMenuItemClick(MenuItem item) {
                 if(fragment_index != 1){
-                    getSupportFragmentManager()
-                            .beginTransaction()
-                            .replace(R.id.container_frame, new EstoqueFragment())
-                            .commit();
-                    fragment_index = 1;
+                    if(fragment_index == 0) {
+                        getSupportFragmentManager()
+                                .beginTransaction()
+                                .setCustomAnimations(R.anim.puxar_direita, R.anim.mover_esquerda)
+                                .replace(R.id.container_frame, new EstoqueFragment())
+                                .commit();
+                        fragment_index = 1;
+                    }else if(fragment_index == 2){
+                        getSupportFragmentManager()
+                                .beginTransaction()
+                                .setCustomAnimations(R.anim.puxar_esquerda, R.anim.mover_direita)
+                                .replace(R.id.container_frame, new EstoqueFragment())
+                                .commit();
+                        fragment_index = 1;
+                    }
                 }
                 return false;
             }
@@ -61,9 +72,9 @@ public class HomeActivity extends AppCompatActivity {
                 if(fragment_index != 2){
                     getSupportFragmentManager()
                             .beginTransaction()
+                            .setCustomAnimations(R.anim.puxar_direita, R.anim.mover_esquerda)
                             .replace(R.id.container_frame, new CadastroFragment())
                             .commit();
-
                     fragment_index = 2;
                 }
                 return false;
