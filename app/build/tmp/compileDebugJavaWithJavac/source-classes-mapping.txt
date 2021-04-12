@@ -32,6 +32,20 @@ com/samirmaciel/estoquesdp/banco/FireBaseBanco.java
  com.samirmaciel.estoquesdp.banco.FireBaseBanco
 com/samirmaciel/estoquesdp/DAO/ProdutoDAO.java
  com.samirmaciel.estoquesdp.DAO.ProdutoDAO
+com/samirmaciel/estoquesdp/ui/cadastrar/CadastroFragment.java
+ com.samirmaciel.estoquesdp.ui.cadastrar.CadastroFragment
+ com.samirmaciel.estoquesdp.ui.cadastrar.CadastroFragment$1
+ com.samirmaciel.estoquesdp.ui.cadastrar.CadastroFragment$2
+ com.samirmaciel.estoquesdp.ui.cadastrar.CadastroFragment$3
+ com.samirmaciel.estoquesdp.ui.cadastrar.CadastroFragment$4
+ com.samirmaciel.estoquesdp.ui.cadastrar.CadastroFragment$5
+ com.samirmaciel.estoquesdp.ui.cadastrar.CadastroFragment$6
+ com.samirmaciel.estoquesdp.ui.cadastrar.CadastroFragment$7
+com/samirmaciel/estoquesdp/ui/estoque/EstoqueFragment.java
+ com.samirmaciel.estoquesdp.ui.estoque.EstoqueFragment
+ com.samirmaciel.estoquesdp.ui.estoque.EstoqueFragment$1
+ com.samirmaciel.estoquesdp.ui.estoque.EstoqueFragment$2
+ com.samirmaciel.estoquesdp.ui.estoque.EstoqueFragment$3
 com/samirmaciel/estoquesdp/HomeActivity.java
  com.samirmaciel.estoquesdp.HomeActivity
  com.samirmaciel.estoquesdp.HomeActivity$1
@@ -44,17 +58,3 @@ com/samirmaciel/estoquesdp/ui/inicio/InicioFragment.java
  com.samirmaciel.estoquesdp.ui.inicio.InicioFragment$3
  com.samirmaciel.estoquesdp.ui.inicio.InicioFragment$4
  com.samirmaciel.estoquesdp.ui.inicio.InicioFragment$5
-com/samirmaciel/estoquesdp/ui/estoque/EstoqueFragment.java
- com.samirmaciel.estoquesdp.ui.estoque.EstoqueFragment
- com.samirmaciel.estoquesdp.ui.estoque.EstoqueFragment$1
- com.samirmaciel.estoquesdp.ui.estoque.EstoqueFragment$2
- com.samirmaciel.estoquesdp.ui.estoque.EstoqueFragment$3
-com/samirmaciel/estoquesdp/ui/cadastrar/CadastroFragment.java
- com.samirmaciel.estoquesdp.ui.cadastrar.CadastroFragment
- com.samirmaciel.estoquesdp.ui.cadastrar.CadastroFragment$1
- com.samirmaciel.estoquesdp.ui.cadastrar.CadastroFragment$2
- com.samirmaciel.estoquesdp.ui.cadastrar.CadastroFragment$3
- com.samirmaciel.estoquesdp.ui.cadastrar.CadastroFragment$4
- com.samirmaciel.estoquesdp.ui.cadastrar.CadastroFragment$5
- com.samirmaciel.estoquesdp.ui.cadastrar.CadastroFragment$6
- com.samirmaciel.estoquesdp.ui.cadastrar.CadastroFragment$7

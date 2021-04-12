@@ -127,7 +127,7 @@ public class InicioFragment extends Fragment implements RecycleViewClick {
                         .setMessage("Aplicativo para auxiliar na localização e indentificação, dos produtos relacionados a loja Sonho dos pés Angra." + "\n\nDesenvolvido por @SamirMaciel.   "+
                                 "Android Studio" +
                                 "\nJava" +
-                                "\n\nBeta 1.6.4v")
+                                "\n\nVersão 1.0v")
                         .setPositiveButton("Fechar", null).create();
                 dialog.show();
 
