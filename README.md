@@ -2,6 +2,8 @@
 
 Aplicativo para localização e visualização de produtos relacionados a loja de calçados.
 
+![ Alt text](https://github.com/samirmaciel/EstoqueSDP-App/blob/master/estoque.gif) [](estoque.gif)
+
 
 #### Funcionalidades: 
 
