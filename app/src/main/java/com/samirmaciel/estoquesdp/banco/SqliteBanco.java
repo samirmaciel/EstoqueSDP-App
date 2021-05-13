@@ -6,12 +6,12 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 import androidx.annotation.Nullable;
 
-public class Conexao extends SQLiteOpenHelper {
+public class SqliteBanco extends SQLiteOpenHelper {
     private static final String name = "banco.db";
     private static final int version = 5;
 
 
-    public Conexao(Context context) {
+    public SqliteBanco(Context context) {
         super( context, name, null, version);
 
     }

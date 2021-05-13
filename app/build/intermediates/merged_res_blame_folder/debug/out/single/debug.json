@@ -24,20 +24,20 @@
         "source": "C:\\Users\\SAMIR\\AndroidStudioProjects\\EstoqueSDP\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_baseline_check_24.png"
     },
     {
-        "merged": "C:\\Users\\SAMIR\\AndroidStudioProjects\\EstoqueSDP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\SAMIR\\AndroidStudioProjects\\EstoqueSDP\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
-    },
-    {
         "merged": "C:\\Users\\SAMIR\\AndroidStudioProjects\\EstoqueSDP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_baseline_search_24.xml.flat",
         "source": "C:\\Users\\SAMIR\\AndroidStudioProjects\\EstoqueSDP\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_baseline_search_24.xml"
     },
     {
-        "merged": "C:\\Users\\SAMIR\\AndroidStudioProjects\\EstoqueSDP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_baseline_close_24.png.flat",
-        "source": "C:\\Users\\SAMIR\\AndroidStudioProjects\\EstoqueSDP\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_baseline_close_24.png"
+        "merged": "C:\\Users\\SAMIR\\AndroidStudioProjects\\EstoqueSDP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\SAMIR\\AndroidStudioProjects\\EstoqueSDP\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
     },
     {
         "merged": "C:\\Users\\SAMIR\\AndroidStudioProjects\\EstoqueSDP\\app\\build\\intermediates\\res\\merged\\debug\\layout_mostrar_imagem.xml.flat",
         "source": "C:\\Users\\SAMIR\\AndroidStudioProjects\\EstoqueSDP\\app\\src\\main\\res\\layout\\mostrar_imagem.xml"
+    },
+    {
+        "merged": "C:\\Users\\SAMIR\\AndroidStudioProjects\\EstoqueSDP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_baseline_close_24.png.flat",
+        "source": "C:\\Users\\SAMIR\\AndroidStudioProjects\\EstoqueSDP\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_baseline_close_24.png"
     },
     {
         "merged": "C:\\Users\\SAMIR\\AndroidStudioProjects\\EstoqueSDP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_notifications_black_24dp.png.flat",
@@ -64,12 +64,12 @@
         "source": "C:\\Users\\SAMIR\\AndroidStudioProjects\\EstoqueSDP\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\SAMIR\\AndroidStudioProjects\\EstoqueSDP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\SAMIR\\AndroidStudioProjects\\EstoqueSDP\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
-    },
-    {
         "merged": "C:\\Users\\SAMIR\\AndroidStudioProjects\\EstoqueSDP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_estoque.png.flat",
         "source": "C:\\Users\\SAMIR\\AndroidStudioProjects\\EstoqueSDP\\app\\src\\main\\res\\drawable\\icon_estoque.png"
+    },
+    {
+        "merged": "C:\\Users\\SAMIR\\AndroidStudioProjects\\EstoqueSDP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\SAMIR\\AndroidStudioProjects\\EstoqueSDP\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
     },
     {
         "merged": "C:\\Users\\SAMIR\\AndroidStudioProjects\\EstoqueSDP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_baseline_add_circle_24.png.flat",
@@ -100,12 +100,12 @@
         "source": "C:\\Users\\SAMIR\\AndroidStudioProjects\\EstoqueSDP\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_baseline_close_24.png"
     },
     {
-        "merged": "C:\\Users\\SAMIR\\AndroidStudioProjects\\EstoqueSDP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_notifications_black_24dp.png.flat",
-        "source": "C:\\Users\\SAMIR\\AndroidStudioProjects\\EstoqueSDP\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_notifications_black_24dp.png"
-    },
-    {
         "merged": "C:\\Users\\SAMIR\\AndroidStudioProjects\\EstoqueSDP\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_button.xml.flat",
         "source": "C:\\Users\\SAMIR\\AndroidStudioProjects\\EstoqueSDP\\app\\src\\main\\res\\drawable\\bg_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\SAMIR\\AndroidStudioProjects\\EstoqueSDP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_notifications_black_24dp.png.flat",
+        "source": "C:\\Users\\SAMIR\\AndroidStudioProjects\\EstoqueSDP\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_notifications_black_24dp.png"
     },
     {
         "merged": "C:\\Users\\SAMIR\\AndroidStudioProjects\\EstoqueSDP\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_baseline_search_24.png.flat",

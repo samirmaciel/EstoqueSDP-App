@@ -5,19 +5,19 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.samirmaciel.estoquesdp.banco.Conexao;
+import com.samirmaciel.estoquesdp.banco.SqliteBanco;
 import com.samirmaciel.estoquesdp.model.Produto;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class HistoricoDAO {
-    private Conexao conexao;
+    private SqliteBanco sqliteBanco;
     private SQLiteDatabase banco;
 
     public HistoricoDAO(Context ct) {
-        conexao = new Conexao(ct);
-        banco = conexao.getWritableDatabase();
+        sqliteBanco = new SqliteBanco(ct);
+        banco = sqliteBanco.getWritableDatabase();
     }
 
     public void inserirProduto(Produto produto){

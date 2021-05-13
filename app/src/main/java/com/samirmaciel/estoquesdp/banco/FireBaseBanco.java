@@ -12,6 +12,7 @@ public class FireBaseBanco extends android.app.Application{
         FirebaseApp.initializeApp(this);
         FirebaseDatabase firebaseDatabase = FirebaseDatabase.getInstance();
         firebaseDatabase.setPersistenceEnabled(true);
-        DatabaseReference databaseReference = firebaseDatabase.getReference();
+        //DatabaseReference databaseReference = firebaseDatabase.getReference();
     }
+
 }
