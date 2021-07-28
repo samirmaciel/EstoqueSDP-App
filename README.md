@@ -14,7 +14,7 @@ Aplicativo para localização e visualização de produtos relacionados a loja d
 
 #### Conexão com o FireBase:
 
-##### Padrão Singleton - Apenas uma **instância** da classe de conexão é criada para toda aplicação, e para isso, é preiciso entendê la para Application e declará la no Manifest.
+##### Padrão Singleton - Apenas uma **instância** da classe de conexão é criada para toda aplicação, e para isso, é preiciso extende la para Application e declará la no Manifest.
 
 * [Manifest](https://github.com/samirmaciel/EstoqueSDP-App/blob/master/app/src/main/AndroidManifest.xml)
 * [Conexão com FireBase](https://github.com/samirmaciel/EstoqueSDP-App/blob/master/app/src/main/java/com/samirmaciel/estoquesdp/banco/FireBaseBanco.java)
