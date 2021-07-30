@@ -18,3 +18,9 @@ Aplicativo para localização e visualização de produtos relacionados a loja d
 
 * [Manifest](https://github.com/samirmaciel/EstoqueSDP-App/blob/master/app/src/main/AndroidManifest.xml)
 * [Conexão com FireBase](https://github.com/samirmaciel/EstoqueSDP-App/blob/master/app/src/main/java/com/samirmaciel/estoquesdp/banco/FireBaseBanco.java)
+
+
+
+Para conseguir dar Build no app, é preciso adicionar o arquivo Google-services, com as configurações do [FireBase](https://firebase.google.com/?hl=pt-br).
+
+
