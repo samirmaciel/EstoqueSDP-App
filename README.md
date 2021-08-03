@@ -66,6 +66,6 @@ Controle e localização de calçados em estoque.
 <br />
 
 ## Arquitetura 🗼
-Para esse app foi utilizado o padrão [***MVVM (Model View View-Model)***](https://developer.android.com/jetpack/docs/guide#recommended-app-arch).
+Para esse app foi utilizado o padrão ***MVC (Model View Controller)***.
 
-![](https://developer.android.com/topic/libraries/architecture/images/final-architecture.png?hl=pt-br)
+![](https://coremvc.com.br/wp-content/uploads/2017/08/modelo_mvc_destacada.png)
