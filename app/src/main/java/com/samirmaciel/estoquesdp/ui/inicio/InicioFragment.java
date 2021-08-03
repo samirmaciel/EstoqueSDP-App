@@ -18,8 +18,6 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.Observer;
-import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -29,7 +27,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
-import com.samirmaciel.estoquesdp.DAO.HistoricoDAO;
+import com.samirmaciel.estoquesdp.dao.HistoricoDAO;
 import com.samirmaciel.estoquesdp.R;
 import com.samirmaciel.estoquesdp.model.RecycleAdapter;
 import com.samirmaciel.estoquesdp.model.RecycleViewClick;
@@ -88,7 +86,7 @@ public class InicioFragment extends Fragment implements RecycleViewClick {
 
         recyclerViewHistorico = (RecyclerView) view.findViewById(R.id.recyclerviewHistorico);
 
-        adapter = new RecycleAdapter(getContext(), getActivity(), listaHistorico, this);
+        adapter = new RecycleAdapter(getContext(), listaHistorico, this);
         
         recyclerViewHistorico.setAdapter(adapter);
         recyclerViewHistorico.setLayoutManager(new LinearLayoutManager(getContext()));

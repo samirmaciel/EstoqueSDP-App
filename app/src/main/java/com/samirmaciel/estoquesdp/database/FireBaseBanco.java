@@ -1,7 +1,6 @@
-package com.samirmaciel.estoquesdp.banco;
+package com.samirmaciel.estoquesdp.database;
 
 import com.google.firebase.FirebaseApp;
-import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 public class FireBaseBanco extends android.app.Application{

@@ -14,7 +14,6 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.Spinner;
@@ -26,7 +25,6 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
-import com.samirmaciel.estoquesdp.DAO.ProdutoDAO;
 import com.samirmaciel.estoquesdp.R;
 import com.samirmaciel.estoquesdp.model.Produto;
 import com.samirmaciel.estoquesdp.model.ToastPersonalizado;
@@ -34,7 +32,6 @@ import com.samirmaciel.estoquesdp.model.ToastPersonalizado;
 import java.io.ByteArrayOutputStream;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 
 public class AtualizacaoProduto_Act extends AppCompatActivity {
 

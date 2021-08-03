@@ -34,11 +34,10 @@ import java.util.List;
 public class RecycleAdapter extends RecyclerView.Adapter<RecycleAdapter.MyViewHolder> {
     private List<Produto> produtos;
     private Context context;
-    private Activity activity;
     private DatabaseReference databaseReference;
     private RecycleViewClick recycleViewClick;
 
-    public RecycleAdapter(Context ct, Activity activity, List lista, RecycleViewClick click) {
+    public RecycleAdapter(Context ct, List lista, RecycleViewClick click) {
         recycleViewClick = click;
         produtos = lista;
         context = ct;

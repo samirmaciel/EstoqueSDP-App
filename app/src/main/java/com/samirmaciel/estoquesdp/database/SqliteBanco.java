@@ -1,10 +1,8 @@
-package com.samirmaciel.estoquesdp.banco;
+package com.samirmaciel.estoquesdp.database;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-
-import androidx.annotation.Nullable;
 
 public class SqliteBanco extends SQLiteOpenHelper {
     private static final String name = "banco.db";

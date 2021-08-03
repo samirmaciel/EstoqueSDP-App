@@ -61,7 +61,7 @@ public class EstoqueFragment extends Fragment implements RecycleViewClick {
         estoqueRecycleView = (RecyclerView) view.findViewById(R.id.recycleView);
         progressBar = (ProgressBar) view.findViewById(R.id.progressBar);
         eventoDataBase();
-        adapter = new RecycleAdapter(getContext(), getActivity(), produtosFirebase, this);
+        adapter = new RecycleAdapter(getContext(), produtosFirebase, this);
         estoqueRecycleView.setAdapter(adapter);
         estoqueRecycleView.setLayoutManager(new LinearLayoutManager(getContext()));
         textQuantidadeDeProdutos = (TextView) view.findViewById(R.id.textQuantidadeDeProdutos);

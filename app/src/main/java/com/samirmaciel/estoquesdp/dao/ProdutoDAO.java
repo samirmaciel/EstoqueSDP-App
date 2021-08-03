@@ -1,11 +1,11 @@
-package com.samirmaciel.estoquesdp.DAO;
+package com.samirmaciel.estoquesdp.dao;
 
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.samirmaciel.estoquesdp.banco.SqliteBanco;
+import com.samirmaciel.estoquesdp.database.SqliteBanco;
 import com.samirmaciel.estoquesdp.model.Produto;
 
 import java.util.ArrayList;
