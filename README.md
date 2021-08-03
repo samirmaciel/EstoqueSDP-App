@@ -1,18 +1,40 @@
-# EstoqueSDP-App
+![GitHub Cards Preview](https://github.com/samirmaciel/EstoqueSDP-App/blob/master/estoque_banner_github.png)
 
-Aplicativo para localização e visualização de produtos relacionados a loja Sonho dos Pés Angra.
-
-
-#### Funcionalidades: 
-
-* Busca de produtos por código
-* Cadastro ou atualizção de produtos
-* Visualização de produtos totais do estoque e por categoria
+# Estoque
+Controle e localização de calçados em estoque. 
 
 
-#### Conexão com o FireBase:
+## Desenvolvido com 🛠
+- [Java](https://www.java.com/pt-BR/) - Uma das linguagens oficiais para desenvolvimento Android.
+- [FireBase](https://firebase.google.com/?hl=pt-br) - Baas (Backend as a Service) para aplicações Web e Mobile do Google
+- [SQlite](https://www.sqlite.org/) - SQLite é uma biblioteca em linguagem C que implementa um banco de dados SQL embutido.
+- [Singleton](https://refactoring.guru/pt-br/design-patterns/singleton) - Singleton especifica que apenas uma instância da classe pode existir, e esta será utilizada por toda a aplicação.
 
-##### Padrão Singleton - Apenas uma **instância** da classe de conexão é criada, declarando ela no Android Manifest.
 
-* [Manifest](https://github.com/samirmaciel/EstoqueSDP-App/blob/master/app/src/main/AndroidManifest.xml)
-* [Classe Conexão](https://github.com/samirmaciel/EstoqueSDP-App/blob/master/app/src/main/java/com/samirmaciel/estoquesdp/banco/FireBaseBanco.java)
+
+## Estrutura de pacotes 📦
+    
+    com.samirmaciel.estoquesdp # Root Package
+    ├── DAO                       
+    │   ├── HistoricoDAO
+    |   ├── ProdutoDAO
+    ├── Banco
+    |   ├── FireBaseBanco
+    |   ├── SqliteBanco
+    ├── Model
+    |   ├── Produto
+    |   ├── RecycleAdapter
+    |   ├── RecycleViewClick
+    |   ├── ToastPersonalizado
+    ├── Ui
+    |   ├── Cadastrar
+    |   |   ├── CadastroFragment
+    |   ├── Estoque
+    |   |   ├── EstoqueFragment
+    |   ├── Inicio
+    |   |   ├── InicioFragment
+    ├── AtualizacaoProduto_Act
+    
+<br />
+
+
