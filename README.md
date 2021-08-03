@@ -11,61 +11,27 @@ Controle e localização de calçados em estoque.
 
 ## Estrutura de pacotes 📦
     
-    com.samirmaciel.payflow_kotlin # Root Package
-    ├── modules                       
-    │   ├── barcodescanner
-    |   |   ├── BarcodeScannerActivity
-    |   ├── bottomsheetdialog_payment
-    |   |   ├── BottomSheetDialogPayment
-    |   |   ├── BottomSheetDialogPaymentViewModel
-    |   |── bottomsheetdialog_statiment
-    |   |   ├── BottomSheetDialogStatiment
-    │   ├── home
-    |   |   ├── HomeActivity
-    |   |   ├── HomeViewModel
-    |   ├── login
-    |   |   ├── LoginActivity
-    |   |── mypayments
-    |   |   ├── MyPaymentsSlipsFragment
-    |   |   ├── MyPaymentsSlipsViewModel
-    │   ├── mystatiments  
-    |   |   ├── MyStatimentsFragment
-    |   |   ├── MyStatimentsViewModel
-    |   ├── register    
-    |   |   ├── RegisterActivity
-    |   |   ├── RegistrationViewModel
-    |   |── splash
-    |   |   ├── SplashActivity
-    |
-    ├── shared               
-    │   ├── commom  
-    |   |   ├── DateTextWatcher
-    |   |   ├── MoneyTextWatcher
-    |   |   ├── PaymentsRecyclerViewAdapter
-    |   |   ├── StatimentsRecyclerViewAdapter
-    |   ├── data 
-    |   |   ├── AppDataBase
-    |   |   ├── PaymentSlipDataSource
-    |   |   ├── StatimentDataSource
-    |   |── model 
-    |   |   ├── AppDataBase
-    |   |   |   ├── PaymentSlipRepository
-    |   |   |   ├── RegistrationViewParams
-    |   |   |   ├── StatimentRepository
-    |   |   ├── PaymentSlipDataSource
-    |   |   |   ├── PaymentSlip
-    |   |   |   ├── PaymentSlipDAO
-    |   |   |   ├── PaymentSlipEntity
-    |   |   ├── StatimentDataSource
-    |   |   |   ├── Statiment
-    |   |   |   ├── StatimentDAO
-    |   |   |   ├── StatimentEntity
-  
-
-
+    com.samirmaciel.estoquesdp # Root Package
+    ├── DAO                       
+    │   ├── HistoricoDAO
+    |   ├── ProdutoDAO
+    ├── Banco
+    |   ├── FireBaseBanco
+    |   ├── SqliteBanco
+    ├── Model
+    |   ├── Produto
+    |   ├── RecycleAdapter
+    |   ├── RecycleViewClick
+    |   ├── ToastPersonalizado
+    ├── Ui
+    |   ├── Cadastrar
+    |   |   ├── CadastroFragment
+    |   ├── Estoque
+    |   |   ├── EstoqueFragment
+    |   ├── Inicio
+    |   |   ├── InicioFragment
+    ├── AtualizacaoProduto_Act
+    
 <br />
 
-## Arquitetura 🗼
-Para esse app foi utilizado o padrão ***MVC (Model View Controller)***.
 
-![](https://coremvc.com.br/wp-content/uploads/2017/08/modelo_mvc_destacada.png)
