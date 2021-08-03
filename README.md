@@ -1,7 +1,7 @@
 ![GitHub Cards Preview](https://github.com/samirmaciel/EstoqueSDP-App/blob/master/estoque_banner_github.png)
 
-# Payflow
-Organize seus boletos de maneira rápida e prática em um só lugar. 
+# Estoque
+Controle e localização de calçados em estoque. 
 
 
 ## UI Design
