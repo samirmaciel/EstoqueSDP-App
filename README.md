@@ -15,13 +15,13 @@ Controle e localização de calçados em estoque.
 ## Estrutura de pacotes 📦
     
     com.samirmaciel.estoquesdp # Root Package
-    ├── DAO                       
+    ├── dao                       
     │   ├── HistoricoDAO
     |   ├── ProdutoDAO
-    ├── Banco
+    ├── database
     |   ├── FireBaseBanco
     |   ├── SqliteBanco
-    ├── Model
+    ├── model
     |   ├── Produto
     |   ├── RecycleAdapter
     |   ├── RecycleViewClick
@@ -33,7 +33,8 @@ Controle e localização de calçados em estoque.
     |   |   ├── EstoqueFragment
     |   ├── Inicio
     |   |   ├── InicioFragment
-    ├── AtualizacaoProduto_Act
+    |   |   ├── AtualizacaoProduto_Act
+    ├── HomeActivity
     
 <br />
 
